@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -41,12 +41,13 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex space-x-4">
             <a
-              href="https://facebook.com"
+              href="https://wa.me/+917654288972?text=Hi%20there!"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              <FaFacebookF size={20} />
+              <FaWhatsapp
+              size={20} />
             </a>
             <a
               href="https://twitter.com"

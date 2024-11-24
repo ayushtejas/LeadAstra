@@ -10,7 +10,7 @@ const page = () => {
 redirect('/home')
 
   return (
-    <div>page</div>
+    <div>home</div>
   )
 }
 

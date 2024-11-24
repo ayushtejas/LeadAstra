@@ -8,11 +8,11 @@ const TopSection = () => {
       {/* Left Content */}
       <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 mt-8">
         <span className="text-4xl md:text-5xl  text-blue-600 pb-5">
-        We'll book you <span className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">20 meetings</span>  within <span className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">30 days</span>.
+        We&apos;ll book you <span className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">20 meetings</span>  within <span className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">30 days</span>.
         </span>
         <p className="text-lg md:text-xl text-gray-600 my-10">
           Empowering your marketing journey with cutting-edge strategies and
-          creative solutions. Let’s take your brand to the next level.
+          creative solutions. Let&apos;s take your brand to the next level.
         </p>
         <Button className="rounded-full text-lg font-bold bg-indigo-500 text-white py-8 px-12 hover:bg-blue-600">
   BOOK A CALL NOW!

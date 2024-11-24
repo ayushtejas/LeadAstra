@@ -12,7 +12,6 @@ import {
   CarouselPrevious,
 } from "../../components/ui/carousel";
 import { Progress } from "../../components/ui/progress";
-import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import { ArrowUpRight } from 'lucide-react';
 
@@ -64,7 +63,6 @@ const stats = [
 ];
 
 const Testimonials = () => {
-  const [api] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
     <div className="py-12 px-6 md:px-16 ">
@@ -111,7 +109,7 @@ const Testimonials = () => {
                 <CarouselItem key={index}>
                   <Card className="p-6">
                     <CardContent className="space-y-4">
-                      <p className="text-lg text-gray-600 italic">"{testimonial.review}"</p>
+                      <p className="text-lg text-gray-600 italic">&quot;{testimonial.review}&quot;</p>
                       <div>
                         <p className="font-semibold text-blue-600">{testimonial.name}</p>
                         <p className="text-sm text-gray-500">{testimonial.title}</p>

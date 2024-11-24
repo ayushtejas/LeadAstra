@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCogs, FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { MdAutoGraph, MdEmail } from "react-icons/md";
 import { IoCalendarOutline, IoCall, IoPeople } from "react-icons/io5";
 
